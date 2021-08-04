@@ -1,0 +1,131 @@
+body{
+  background-color: #282c34;
+  color: white;
+}
+
+#header {
+  font-size: 26px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  background-color: #1b1e24;
+  height: min-content;
+  width: calc(100% - 20px);
+  display: table;
+}
+
+#footer{
+  font-size: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 2px;
+  padding-bottom: 6px;
+  background-color: #1b1e24;
+  height: min-content;
+  width: calc(100% - 20px);
+  float: inline-end;
+  position: fixed;
+  bottom: 0;
+}
+
+.table_element{
+  display: table-cell;
+}
+
+.header_login{
+  text-align: right;
+}
+
+.login_input{
+  margin-bottom: 3px;
+  border: 1px solid #666a74;
+  background-color: #1b1e24;
+  color: white;
+  border-radius: 4px;
+}
+
+.user_input{
+  width: 25%;
+  max-width: 160px;
+}
+
+.pass_input{
+  margin: 0px 2px;
+  width: 25%;
+  max-width: 160px;
+  -webkit-text-security: disc !important;
+}
+
+::placeholder {
+  color: #666a74;
+  opacity: 1; /* Firefox */
+}
+
+.login_btn{
+  margin-right: 2px;
+  cursor: pointer;
+}
+
+.register_btn{
+  cursor: pointer;
+}
+
+#content{
+  padding: 20px;
+}
+
+.main{
+  padding-top: 15px;
+  margin-top: 15px;
+  border-top: 1px solid #666a74;
+  width: 100%;
+}
+
+.fav_main{
+  float: right;
+  width: 45%;
+  padding: 5px;
+  padding-left: 12px;
+}
+
+.prod_main{
+  float: left;
+  padding: 6px;
+  width: 45%;
+}
+
+.product_test{
+  height: fit-content;
+  border-top: 1px solid #666a74;
+  margin: 10px 5px 10px 5px;
+  padding-top: 8px;
+}
+
+.detail_btn{
+  border: 1px solid #666a74;
+  background-color: #1b1e24;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 2px 4px;
+  margin-top: 8px;
+}
+
+.btn_right{
+  margin-left: 2px;
+}
+
+#products{
+  margin-bottom: 50px;
+}
+
+#favorites{
+  margin-bottom: 50px;
+}
+
+p{
+    display:inline;
+    font-style: italic;
+    color: #666a74;
+}
