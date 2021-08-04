@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+# Growth Hackers App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- [x] list 1 API source products
+- [ ] list 2 or more distinct API source products
+- [x] User can add items as favorites
+- [x] Favorites persist after page load (on login)
+- [x] Add and remove items from favorites
+- [ ] Sort items by attributes
+- [ ] Search items by attributes
 
-## Available Scripts
+## As a visitor:
 
-In the project directory, you can run:
+- [x] I can see all API sources data; 
+- [ ] I can change the API source; 
+- [x] I can view the list of items; 
+- [x] I can create an account, login, and logout. 
 
-### `npm start`
+## As a logged user: 
+- [x] I can add and remove items from favorites; 
+- [x] I can list all my favorites independent of the source.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## On favorites page: 
+- [x] Once logged I can add items to my favorites and see the favorites page; 
+- [x] The favorites page must list all my items independent of the source, 
+- [ ] The search and ordering are dynamic on this page, they will appear depending on the items that I have on my list. 
+- [ ] The search must be a click to enable field type. 
+    
+## Requirements: 
+- [x] The APIs can be in REST or GraphQL. You can find some here http://apis.guru/graphql-apis/ 
+- Apollo GraphQL or Axios can be used; 
+- [ ] Tests must use Jest. Enzyme or React Testing Library can be used as support lib; 
+- [x] Any users and favorites can be stored in the local storage. The use of a "GraphQL as a service" or a "Crud ready service" to store and retrieve the data is a plus; 
+- Can be used Bootstrap Framework or Ant Design for styles, but Ant is preferred; 
+- If any React boilerplate structure is used, it is expected that the "not used features" and not used files be removed (no useless code or files). 
+- All good practices, code structure and latest features of React will be required (https://reactjs.org/); 
+- Is expected a good README from a shared project; 
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Final considerations:
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Thank you GrowthHackers for the opportunity, it was a difficult task considering my basic knowledge of React.
+I'm aware that i haven't met the requirements, to make it easier for the reviewer i made a small checklist of which requirements i have met, keep in mind that i changed the text in some requirements to better reflect what i achieved, i also commented the code with explanations of how the code works.
+Thanks again and i hope i might be able to do another challenge when im more experienced. 
